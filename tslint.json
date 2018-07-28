@@ -41,15 +41,14 @@
 		"no-switch-case-fall-through": true,
 		"no-trailing-whitespace": true,
 		"no-unused-variable": [
-			true,
-			"react"
+			true
 		],
 		"no-var-keyword": true,
 		"one-variable-per-declaration": [
 			true,
 			"ignore-for-loop"
 		],
-		"semicolon": false,
+		"semicolon": true,
 		"triple-equals": [
 			true,
 			"allow-null-check"
