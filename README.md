@@ -27,7 +27,7 @@ A Node.js command line seed.
  * [rimraf](https://github.com/isaacs/rimraf)
 
 
-<img src='./tech-stack-word-cloud.png' width='600px' />
+<img src='./word-cloud.png' width='600px' />
 
 
 ### TODO
