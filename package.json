@@ -43,6 +43,7 @@
 		"node": ">=9.4.0"
 	},
 	"devDependencies": {
+		"@types/inquirer": "0.0.42",
 		"@types/node": "^10.5.4",
 		"commitizen": "^2.10.1",
 		"cz-customizable": "^5.2.0",
@@ -57,7 +58,6 @@
 		"typescript": "^2.7"
 	},
 	"dependencies": {
-		"@types/inquirer": "0.0.42",
 		"chalk": "^2.4.1",
 		"commander": "^2.16.0",
 		"inquirer": "^6.0.0"
