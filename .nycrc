@@ -1,0 +1,17 @@
+{
+    "include": [
+        "dist/**/*.js"
+    ],
+    "extension": [
+        ".js"
+    ],
+    "exclude": [
+        "dist/__test__"
+    ],
+    "reporter": [
+        "text-summary",
+        "html"
+    ],
+    "sourceMap": true,
+    "all": true
+}
