@@ -5,7 +5,8 @@
 	"bin": {
 		"cli_": "./bin/cli_"
 	},
-	"main": "index.js",
+	"main": "./dist/index.js",
+	"typings": "./dist/index.d.ts",
 	"scripts": {
 		"test": "npm run build && nyc ava ./dist/__test__/**/*",
 		"prepublish": "npm run build",
