@@ -1,0 +1,56 @@
+{
+  "name": "cli_",
+  "version": "1.0.0",
+  "description": "A command line seed base on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "watch": "npm run watch:ts",
+    "watch:ts": "npm run build -- --watch --diagnostics",
+    "prebuild": "npm run lint",
+    "compile": "tsc --pretty",
+    "build": "rimraf dist && tsc --pretty",
+    "precommit": "lint-staged",
+    "lint": "tslint src/**/*.ts",
+		"commit": "git-cz --no-verify"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-customizable"
+		},
+		"cz-customizable": {
+			"config": "./.cz-config.js"
+		}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikin/cli_.git"
+  },
+  "keywords": [
+    "commander",
+    "typescript"
+  ],
+  "author": "aikin <ulaijn@gmail.com> (http://aikin.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aikin/cli_/issues"
+  },
+  "homepage": "https://github.com/aikin/cli_#readme",
+  "engines": {
+    "node": ">=9.4.0"
+  },
+  "devDependencies": {
+    "commitizen": "^2.10.1",
+    "cz-customizable": "^5.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.13.7",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^2.7"
+  }
+}
