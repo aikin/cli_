@@ -13,9 +13,8 @@
 		"prebuild": "npm run lint",
 		"compile": "tsc --pretty",
 		"build": "rimraf lib && tsc --pretty",
-		"precommit": "npm run prettier && lint-staged",
+		"precommit": "lint-staged",
 		"lint": "tslint src/**/*.ts",
-		"prettier": "prettier --write ./src/**/*.{js,ts,css,scss,json,md,yml} --ignore-path ./.prettierignore",
 		"commit": "git-cz --no-verify"
 	},
 	"config": {
