@@ -7,6 +7,8 @@ A Node.js command line seed.
 
 ### Tech Stack Cloud
 
+<img src='./word-cloud.png' width='600px' />
+
  * [node.js](https://github.com/nodejs/node)
  * [typescript](https://github.com/Microsoft/TypeScript)
  * [axios](https://github.com/axios/axios)
@@ -25,9 +27,6 @@ A Node.js command line seed.
  * [prettier](https://github.com/prettier/prettier)
  * [commitizen](https://github.com/commitizen/cz-cli)
  * [rimraf](https://github.com/isaacs/rimraf)
-
-
-<img src='./word-cloud.png' width='600px' />
 
 
 ### TODO

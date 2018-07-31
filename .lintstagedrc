@@ -1,6 +1,6 @@
 {
   "linters": {
-    "*.{ts,tsx}": ["tslint", "prettier --ignore-path .prettierignore --write", "git add ."],
-    "*.{js,jsx}": ["tslint", "prettier --ignore-path .prettierignore --write", "git add ."],
+    "*.{ts,tsx}": ["tslint", "prettier --ignore-path .prettierignore --write", "git add"],
+    "*.{js,jsx}": ["tslint", "prettier --ignore-path .prettierignore --write", "git add"],
   }
 }
